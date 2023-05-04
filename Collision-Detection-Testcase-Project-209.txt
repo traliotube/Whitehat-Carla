@@ -1,0 +1,14 @@
+Test cases - 4
+Number of Spawn - 40
+Collision - Yes
+Time in seconds - 19.70315170288086
+
+Test cases - 5
+Number of Spawn - 50
+Collision - No
+Time in seconds - No
+
+Test cases - 6
+Number of Spawn - 100
+Collision - No
+Time in seconds - No
