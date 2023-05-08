@@ -1,15 +1,15 @@
 {
-    "python.analysis.typeCheckingMode": "off",
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "python.formatting.provider": "none",
-    "cSpell.words": [
-        "dtype",
-        "frombuffer",
-        "mayavi",
-        "mlab",
-        "savefig",
-        "visualise"
-    ]
+  "python.analysis.typeCheckingMode": "basic",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none",
+  "cSpell.words": [
+    "dtype",
+    "frombuffer",
+    "mayavi",
+    "mlab",
+    "savefig",
+    "visualise"
+  ]
 }
