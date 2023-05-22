@@ -114,7 +114,7 @@ try:
     spawn_point = world.get_map().get_spawn_points()[20]
     dropped_vehicle = world.spawn_actor(car_model, spawn_point)
 
-    police_car_blueprint = get_blueprint_of_world.filter("name of car")[0]
+    police_car_blueprint = get_blueprint_of_world.filter("police")[0]
     car_model = get_blueprint_of_world.filter("model3")[0]
     police_car_spawn_point = world.get_map().get_spawn_points()[15]
     police_car = world.spawn_actor(police_car_blueprint, police_car_spawn_point)
