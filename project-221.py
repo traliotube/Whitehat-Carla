@@ -43,7 +43,7 @@ try:
 
     get_blueprint_of_world = world.get_blueprint_library()
     car_model = get_blueprint_of_world.filter("model3")[0]
-    spawn_point = world.get_map().get_spawn_points()[6]
+    spawn_point = world.get_map().get_spawn_points()[10]
     dropped_vehicle = world.spawn_actor(car_model, spawn_point)
 
     simulator_camera_location_rotation = carla.Transform(
