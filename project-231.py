@@ -1,12 +1,13 @@
 from numpy import loadtxt
 from keras.models import Sequential
 from keras.layers import Dense
+import pandas as pd
 
 
-dataset = loadtxt("project-231-dataset.csv", delimiter=",")
+dataset = pd.read_csv("project-231-dataset.csv", error_bad_lines=False)
 
-x = dataset[:, 4:11]
-y = dataset[:, 3]
+x = dataset.iloc[:, 4:11].values
+y = dataset.iloc[:, 3].values
 
 print("value of X are:", x)
 print("value of Y are:", y)
